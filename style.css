@@ -1,0 +1,136 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Roboto:wght@100&family=Viaoda+Libre&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+.hedaer-container__logo{
+    color: #FFF;
+    font-size: 36px; 
+    margin-left: 180px;
+    justify-content: center;
+}
+
+.header-container{
+    background-color: #162028;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.header-container__nav{
+    list-style-type: none;
+    
+    display: inline-flex;
+    gap: 50px;
+    padding: 16px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.header-container__nav a{
+    text-decoration: none;
+    color: #a5b4be;
+}
+
+.header-container__nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.main-container__topo{
+    width: 100%;
+}
+
+.content__title{
+    text-align: center;
+    margin: 100px 170px;
+}
+
+.main-container__h1{
+    margin-bottom: 35px ;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.main-container__p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.section-list{
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    width: 860px;
+    margin: auto;
+}
+
+.card{
+    flex-grow: 1; /* faz com que uma parte do espaço do card se divida entre eles*/ 
+}
+
+.card-name{
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.card-name__p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.section-info{
+    background-size: cover;
+    background-position: content;
+    background-image: url(./imagens/bg_detalhe.png);
+    padding: 100px 0 200px;
+    margin-top: 46px;
+    height: 560px;
+    
+}
+
+.section-info__h2{
+    margin: 65px 200px;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Belleza', sans-serif;
+    color: white;
+    line-height: 1.5;
+}
+
+.section-info__p{
+    margin-right: 350px;
+    margin-left: 200px;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 2;
+}
+footer{
+    text-align: center;
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 18px;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+.footer-a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-a:hover{
+    text-decoration: underline;
+}
